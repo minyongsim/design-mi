@@ -1,3 +1,3 @@
-https://minyongsim.github.io/mi_design/
+https://minyongsim.github.io/design-mi/
 # mi_design
 
