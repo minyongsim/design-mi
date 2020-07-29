@@ -1,3 +1,20 @@
 @charset "utf-8";
 @import "reset.css";
 @import "common.css";
+
+#section {padding-top: 10px;}
+#section .slide_box .slide {width:80%; height: 700px; }
+#section .slide_box .slide .slide_inner
+{background-size: cover; background-repeat:no-repeat; height:700px;position: relative; }
+
+#section .slide_box .slide div:nth-child(1) {background-image: url(../images/slide1.jpg);}
+#section .slide_box .slide div:nth-child(2) {background-image: url(../images/slide2.jpg);}
+#section .slide_box .slide div:nth-child(3) {background-image: url(../images/slide3.jpg);}
+
+#section .slide_box .slide .slide_inner .text 
+{text-align: center; position: absolute; top: 50%;
+    left: 50%; transform: translate(-50%, -50%);}
+#section .slide_box .slide .slide_inner .text h2
+{font-size: 50px; color: #fff; padding: 20px 30px 25px;}
+#section .slide_box .slide .slide_inner .text p 
+{font-size: 30px; color: #fff; padding: 20px 30px 25px;}
