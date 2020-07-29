@@ -67,8 +67,46 @@ font-size: 17px; font-weight: bold;}
  {position: absolute; top: 50%; right:20%; transform: translateY(-50%);}
 
  /* 비지니스 박스 3 */
- #section .business_info03 
- {width: 100%; height: 770px; padding-top: 80px; padding-bottom: 80px;}
- #section .business_info03 .biz01
- {width: 100%; height: 770px; background-size : cover; background-repeat: no-repeat; }
- #section .business_info03 .biz01 .biz_box > a {background-image:url(../images/m01.jpg)}
+ #section .biz_box {width: 100%; padding-top:80px ; padding-bottom: 50px; position: relative;}
+ #section .biz_box .biz_inner {}
+ #section .biz_box .biz_inner li {margin-left: 1%; margin-bottom: 100px;}
+
+ #section .biz_box .biz_inner li:first-child
+  {float: left; width: 539px; background: no-repeat ; background-size:cover ; height: 500px; position: relative; }
+ #section .biz_box .biz_inner li:first-child
+  {background-image: url(../images/m01.jpg);}
+ #section .biz_box .biz_inner li:first-child .text
+ {width: 100%; background: #f2f2f2; position: absolute; top: 100%; left: 0; padding: 20px 10px; }
+
+ #section .biz_box .biz_inner li:nth-child(2) 
+ {float: left; width: 539px; background: no-repeat ; background-size: cover; height: 200px; position: relative; }
+ #section .biz_box .biz_inner li:nth-child(2)
+  {background-image: url(../images/m02.jpg);}
+ #section .biz_box .biz_inner li:nth-child(2) .text
+ {width: 100%; background: #f2f2f2; position: absolute; top: 100%; left: 0; padding: 20px 10px; }
+
+ #section .biz_box .biz_inner li:nth-child(3) 
+ {float: left; width: 539px; background: no-repeat ; background-size: cover; height: 200px; position: relative; }
+ #section .biz_box .biz_inner li:nth-child(3)
+  {background-image: url(../images/m03.jpg);}
+ #section .biz_box .biz_inner li:nth-child(3) .text
+ {width: 100%; background: #f2f2f2; position: absolute; top: 100%; left: 0; padding: 20px 10px; }
+
+ /* 동영상*/
+ #section .video {max-width: 100%; position: relative;}
+ #section .video img {text-align: center; }
+ #section .video a:nth-child(2) {position: absolute; top: 50%; left: 50%; opacity: 0.5;}
+ 
+ /*포토폴리오*/
+ #section .portfolio {width: 100%; padding-top:70PX;}
+ #section .portfolio h1 {text-align: center; ; font-size: 40px; position: relative; padding-bottom: 10px;}
+ #section .portfolio h1:after {content: ''; width: 40px; height:2px; background: #111; 
+    position:absolute ; top: 100%; left: 50%; transform: translate(-50%);}
+#section .portfolio p {text-align: center; padding:30px 0; font-size: 16px;}
+#section .portfolio .keyword {text-align: center; padding: 30px 0px;}
+#section .portfolio .keyword li 
+{display: inline-block; border: 1px solid #27a4dd; color:#27a4dd; padding: 5px 10px; border-radius: 50px;}
+#section .portfolio .Photo_box  {width: 235px; height: 175px; letter-spacing: 20px;}
+
+#section .portfolio .photo li a{ width: 235px; height: 175px; text-align: center;
+display: inline-block; border-radius: 5px; border: 1px solid #fff;}
