@@ -68,13 +68,13 @@ font-size: 17px; font-weight: bold;}
  {position: absolute; top: 50%; right:20%; transform: translateY(-50%);}
 
  /* 비지니스 박스 3 */
- #section .biz_box {width: 100%; padding-top:80px ; padding-bottom: 50px; position: relative;}
+ #section .biz_box {width: 100%; padding-top:80px ; padding-bottom: 50px; }
  
- #section .biz_box .biz_inner li {margin-left: 1%; margin-bottom: 100px;}
+ #section .biz_box .biz_inner li {margin-left: 1%; margin-bottom: 100px; position: relative;}
  #section .biz_box .biz_inner li > a 
- {display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50% -50%); }
+ {display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50% -50%); background: navy; }
  
- #section .biz_box .biz_inner li > a:hover img{transform: rotate(1turn); ;}
+ #section .biz_box .biz_inner li > a:hover { transform: rotate(45deg) translate(-50% -50%); }
 
 
  #section .biz_box .biz_inner li:first-child
