@@ -44,19 +44,20 @@ width: 16px; height: 16px; }
 
 /* 비즈니스 박스*/
 #section .business_info {padding-top: 50px; width: 100%; }
-#section .business_info .business_box {margin: 0 auto; text-align: center;}
-#section .business_info .business_box li {display: inline-block; transition: all 0.5s; }
+#section .business_info .business_box {text-align: center;}
+#section .business_info .business_box li {float: left; width: 25%;  }
 
-#section .business_info .business_box li a {display: block; text-align: center; padding: 50px 135px;
+#section .business_info .business_box li a {display:inline-block; text-align: center; padding: 50px 0px;
 font-size: 17px; font-weight: bold;}
+#section .business_info .business_box li img {transition: all 0.5s;}
 #section .business_info .business_box li:hover img {transform: translateY(-10%);}
 
 /*비즈니스 박스 2*/
 #section .business_info02 {background: #f0f0f0; width: 100%; padding: 60px 0 100px 0;}
 #section .business_info02 .info_big01,
-#section .business_info02 .info_big02 {text-align: center; padding: 10px 5px }
+#section .business_info02 .info_big02 {text-align: center;}
 #section .business_info02 .info_big01 .info_box, 
-#section .business_info02 .info_big02 .info_box {display: inline-block;  padding:5px 10px ;}
+#section .business_info02 .info_big02 .info_box {display: inline-block;  padding:2px ;}
 #section .business_info02 .info_box02
 {width: 350.95px; height: 170px; background: #fff; border: 1px solid #ccc; position: relative; }
 #section .business_info02 .info_box02 img 
@@ -68,8 +69,13 @@ font-size: 17px; font-weight: bold;}
 
  /* 비지니스 박스 3 */
  #section .biz_box {width: 100%; padding-top:80px ; padding-bottom: 50px; position: relative;}
- #section .biz_box .biz_inner {}
+ 
  #section .biz_box .biz_inner li {margin-left: 1%; margin-bottom: 100px;}
+ #section .biz_box .biz_inner li > a 
+ {display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50% -50%); }
+ 
+ #section .biz_box .biz_inner li > a:hover img{transform: rotate(1turn); ;}
+
 
  #section .biz_box .biz_inner li:first-child
   {float: left; width: 539px; background: no-repeat ; background-size:cover ; height: 500px; position: relative; }
@@ -94,11 +100,10 @@ font-size: 17px; font-weight: bold;}
 
  /* 동영상*/
  #section .video {max-width: 100%; position: relative;}
- #section .video img {text-align: center; }
- #section .video a:nth-child(2) {position: absolute; top: 50%; left: 50%; opacity: 0.5;}
+ #section .video a:nth-child(2) {position: absolute; top: 50%; left: 48%; opacity: 0.5; }
  
  /*포토폴리오*/
- #section .portfolio {width: 100%; padding-top:70PX;}
+ #section .portfolio {width: 100%; padding-top:70PX; padding-bottom:80px ;}
  #section .portfolio h1 {text-align: center; ; font-size: 40px; position: relative; padding-bottom: 10px;}
  #section .portfolio h1:after {content: ''; width: 40px; height:2px; background: #111; 
     position:absolute ; top: 100%; left: 50%; transform: translate(-50%);}
@@ -107,6 +112,6 @@ font-size: 17px; font-weight: bold;}
 #section .portfolio .keyword li 
 {display: inline-block; border: 1px solid #27a4dd; color:#27a4dd; padding: 5px 10px; border-radius: 50px;}
 #section .portfolio .Photo_box  {width: 235px; height: 175px; letter-spacing: 20px;}
-
-#section .portfolio .photo li a{ width: 235px; height: 175px; text-align: center;
-display: inline-block; border-radius: 5px; border: 1px solid #fff;}
+#section .portfolio .keyword li:hover{background: #27a4dd; color: #fff;}
+#section .portfolio .photo_box li img{ width: 25%; height: 25%; border-radius: 10%; border: 1px solid #fff; float: left;
+padding: 10px;}
