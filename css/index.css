@@ -71,7 +71,8 @@ font-size: 17px; font-weight: bold;}
  #section .biz_box {width: 100%; padding-top:80px ; padding-bottom: 50px; }
 #section .biz_box .biz_inner li { position: relative; text-align:center; }
 #section .biz_box .biz_inner li > a img { transition:all 0.5s}
-#section .biz_box .biz_inner li > a:hover img { transform: rotate(1turn); }
+#section .biz_box .biz_inner li a:hover {background: red; width: 100%;}
+#section .biz_box .biz_inner li > a:hover img { transform: rotate(1turn);}
 
 #section .biz_box .biz_inner li:first-child {float: left; width:48.8% }
 #section .biz_box .biz_inner li:first-child > a {display: block; transition:all 0.5s; background: no-repeat ; background-size:cover ; height: 502px; line-height:502px }
@@ -79,7 +80,7 @@ font-size: 17px; font-weight: bold;}
 #section .biz_box .biz_inner li .text { background: #f2f2f2; padding: 20px 10px; }
 
 #section .biz_box .biz_inner li:nth-child(2) {float: right; width: 48.8%;margin-bottom:20px }
-#section .biz_box .biz_inner li:nth-child(2) > a {display: block; transition:all 0.5s; background: no-repeat ; background-size:cover ; height: 200px; line-height:200px }
+#section .biz_box .biz_inner li:nth-child(2) > a {display: block; transition:all 0.5s; background: no-repeat ; background-size:cover ; background-position:center ;  height: 200px; line-height:200px }
 #section .biz_box .biz_inner li:nth-child(2) > a {background-image: url(../images/m02.jpg);}
 
 #section .biz_box .biz_inner li:nth-child(3) {float: right; width: 48.8%; }
