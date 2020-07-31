@@ -40,15 +40,19 @@ top: 50%; left: -5px; transform: translateY(-50%);}
 
 
 #footer .company_info {padding-top: 50px;}
+
 #footer .company_info .company_box {position: relative ; height: 250px; }
 #footer .company_info .company_box .company {position: absolute; top: 0%; left: 0%; }
 #footer .company_info .company_box .company h2{font-size: 20px; padding:10px 0;}
 #footer .company_info .company_box .company p {line-height: 30px; color:rgb(144, 143,144);}
+
 #footer .company_info .company_box .customer {position: absolute; top: 0%; left: 40%}
 #footer .company_info .company_box .customer h2 {font-size: 20px; padding: 10px 0;}
 #footer .company_info .company_box .customer p {line-height: 30px; color:rgb(144, 143,144);}
-#footer .company_info .company_box .followus  {position: absolute; bottom:55%; left: 80%; padding: 20px 0; }
+
+#footer .company_info .company_box .followus  {position: absolute; bottom:55%; left:80%; padding: 20px 0; }
 #footer .company_info .company_box .followus h2 {font-size: 20px; padding: 20px;}
+
 #footer .copy {position: absolute ; top: 85%; left:21%;}
  
 
