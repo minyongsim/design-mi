@@ -104,5 +104,6 @@ font-size: 17px; font-weight: bold;}
 #section .portfolio .Photo_box  {width: 235px; height: 175px; letter-spacing: 20px;}
 #section .portfolio .keyword li:hover{background: #27a4dd; color: #fff;}
 #section .portfolio .photo_box li img{ width: 25%; height: 25%; border-radius: 10%; border: 1px solid #fff; float: left;
-padding: 10px;}
+padding: 10px; transition: all 0.5s;}
 
+#section .portfolio .photo_box li:hover img {opacity: 0.5;}
